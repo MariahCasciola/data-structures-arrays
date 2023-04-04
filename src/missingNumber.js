@@ -17,18 +17,6 @@ function missingNumberBruteForce(numbers) {
 /**
  * Use an iterative  strategy for finding the missing number in an array
  */
-// function missingNumberSum(numbers) {
-//   let sumWithMissingNumber = 0;
-//   let sumWithAllNumbers = 0;
-// // sort the numbers array
-//   const sortedArray = numbers.sort();
-//   //Find the expected sum of all integers from 1 to n. Then find the actual sum of the numbers in the array. The difference is the missing number.
-//   for (let i = 0; i < sortedArray.length - 1; i++) {
-//     sumWithMissingNumber += sortedArray[i];
-//     sumWithAllNumbers += sortedArray[i];
-//   }
-//   return sumWithAllNumbers - sumWithMissingNumber;
-// }
 
 function missingNumberSum(numbers) {
   let n = numbers.length + 1;
